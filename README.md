@@ -1,2 +1,0 @@
-# RetoTecnicoQA
-Pruebas QA

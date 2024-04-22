@@ -9,6 +9,14 @@ buildscript {
 
 plugins {
     id 'java'
+    id "org.sonarqube" version "4.4.1.3373"
+}
+sonar {
+  properties {
+    property "sonar.projectKey", "choucair2024_reto"
+    property "sonar.organization", "choucair2024"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
 }
 apply plugin: 'net.serenity-bdd.aggregator'
 group 'co.com.choucair'
